@@ -31,7 +31,21 @@ a:hover {
 .header-main {
     background: rgba(255, 255, 255, 0.18);
         padding: 0.7em 0;
+
 }
+
+.header-logo {
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+        
+        
+}
+.header-logo:hover {
+    color:white;
+        
+        
+}
+
 /*--headeer end here--*/
 .banner {
     background: url(../images/Background.jpg)no-repeat center;
