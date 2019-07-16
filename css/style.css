@@ -55,11 +55,11 @@ a:hover {
     float: left;
     width: 50%;
 }
-.logo h4 {
+.logo h2 {
     font-size: 2em;
    font-family: 'Noto Serif', serif;
 }
-.logo h4 a{
+.logo h2 a{
     color:#fff;
 }
 .top-nav {
