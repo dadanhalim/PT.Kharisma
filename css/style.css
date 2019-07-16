@@ -24,7 +24,7 @@ a:hover {
 /*----*/
 .header-main {
     background: rgba(255, 255, 255, 0.18);
-        padding: 0.7em 0;
+        padding: 0.5em 0;
 
 }
 
@@ -43,20 +43,20 @@ a:hover {
 /*--headeer end here--*/
 .banner {
     background: url(../images/Background.jpg)no-repeat center;
-    min-height: 750px;
+    min-height: 780px;
     background-size: cover;
 }
 .banner1 {
     background: url(../images/Background.jpg)no-repeat;
-    min-height: 30px;
+    min-height: 41px;
     background-size: cover;
 }
 .logo {
     float: left;
-    width: 100%;
+    width: 50%;
 }
 .logo h1 {
-    font-size: 3em;
+    font-size: 2em;
    font-family: 'Noto Serif', serif;
 }
 .logo h1 a{
@@ -94,7 +94,7 @@ span.menu {
    font-family: 'Noto Serif', serif;
 }
 .banner-bottom {
-    padding-top: 14em;
+    padding-top: 10em;
     text-align: center;
 }
 .banner-bottom-text p {
@@ -107,7 +107,7 @@ span.menu {
 .banner-bottom-text a {
     font-size: 0.9em;
     color: #fff;
-    padding: 0.9em 2em;
+    padding: 1em 2em;
     display: inline-block;
     background: #009bbb;
     border-radius:99px;
@@ -587,9 +587,10 @@ span.glyphicon.glyphicon.glyphicon-eye-open:hover{
    font-family: 'Noto Serif', serif;
 }
 .about-bottom {
-    background: url(../images/LOGO.png)no-repeat left;
+    background: url(../images/LOGO.png)no-repeat left ;
     background-size: 50%;
-    min-height: 50px;
+    min-height: 300px;
+    padding: 1.5em;
 }
 .about-left {
     float: left;
@@ -599,8 +600,8 @@ span.glyphicon.glyphicon.glyphicon-eye-open:hover{
     float: right;
     width: 50%;
     background: rgba(0, 155, 187, 0.92);
-    padding: 2em 2em;
-    min-height: 300px;
+    padding: 1.5em;
+    min-height: 340px;
 }
 .about-right h4 {
     font-size: 1.8em;
@@ -789,7 +790,7 @@ span.glyphicon.glyphicon.glyphicon-eye-open:hover{
 .team-bottom ul li a {
     background: url(../images/t-icn.png)no-repeat;
     width: 25px;
-    height: 25px;
+    height: 30px;
     display: inline-block;
 }
 .team-bottom ul li a.fa {
