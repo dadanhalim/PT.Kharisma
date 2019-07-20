@@ -31,6 +31,8 @@ a:hover {
 .header-logo {
     color:white;
     font-family: 'Times New Roman', Times, serif;
+    width: 100px;
+    height: auto;
         
         
 }
@@ -53,11 +55,12 @@ a:hover {
 }
 .logo {
     float: left;
-    width: 50%;
+    width: 100%;
 }
 .logo h2 {
     font-size: 2em;
    font-family: 'Noto Serif', serif;
+   padding: 1px;
 }
 .logo h2 a{
     color:#fff;
@@ -68,7 +71,7 @@ a:hover {
     text-align: right;
 }
 .top-nav ul {
-    padding: 10px;
+    padding: 1px;
     list-style:none;
 }
 ul.res li {
@@ -94,7 +97,7 @@ span.menu {
    font-family: 'Noto Serif', serif;
 }
 .banner-bottom {
-    padding-top: 5em;
+    padding-top: 2em;
     text-align: center;
 }
 .banner-bottom-text p {
@@ -105,7 +108,7 @@ span.menu {
     margin:0.8em auto;
 }
 .banner-bottom-text a {
-    font-size: 0.9em;
+    font-size: 1em;
     color: #fff;
     padding: 1em 2em;
     display: inline-block;

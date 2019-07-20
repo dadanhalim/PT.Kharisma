@@ -215,7 +215,7 @@ html[xmlns] .slides {
 
 @media screen and (max-width: 1024px) {
   .flex-control-nav {
-    bottom: -80%;
+    bottom: -60%;
   }
 }
 
