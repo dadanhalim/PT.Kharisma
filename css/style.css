@@ -43,7 +43,7 @@ a:hover {
 /*--headeer end here--*/
 .banner {
     background: url(../images/Background.jpg)no-repeat center;
-    min-height: 780px;
+    min-height: 880px;
     background-size: cover;
 }
 .banner1 {
@@ -68,7 +68,7 @@ a:hover {
     text-align: right;
 }
 .top-nav ul {
-    padding: 0px;
+    padding: 10px;
     list-style:none;
 }
 ul.res li {
@@ -94,7 +94,7 @@ span.menu {
    font-family: 'Noto Serif', serif;
 }
 .banner-bottom {
-    padding-top: 10em;
+    padding-top: 5em;
     text-align: center;
 }
 .banner-bottom-text p {
@@ -1546,11 +1546,11 @@ ul.res li a {
 }
 .top-nav {
     float: none;
-    width: 100%;
+    width: 50%;
 }
 .top-nav ul.res{
 	 display:none;
-	 padding:0px;
+	 padding:1px;
 }
 .top-nav ul.res {
 		padding: 0;
