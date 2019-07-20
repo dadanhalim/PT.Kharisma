@@ -55,12 +55,12 @@ a:hover {
 }
 .logo {
     float: left;
-    width: 100%;
+    width: 250%;
 }
 .logo h2 {
     font-size: 2em;
    font-family: 'Noto Serif', serif;
-   padding: 1px;
+   padding: 5px;
 }
 .logo h2 a{
     color:#fff;
@@ -71,7 +71,7 @@ a:hover {
     text-align: right;
 }
 .top-nav ul {
-    padding: 1px;
+    padding: 0px;
     list-style:none;
 }
 ul.res li {
@@ -589,14 +589,14 @@ span.glyphicon.glyphicon.glyphicon-eye-open:hover{
     padding-bottom:1.5em;
    font-family: 'Noto Serif', serif;
 }
-.about-bottom {
+/* .about-bottom {
     background: url(../images/LOGO.png)no-repeat left ;
     background-size: 50%;
     min-height: 300px;
     padding: 1.5em;
-}
+} */
 .about-left {
-    float: left;
+    align: center;
     width: 50%;
 }
 .about-right {
