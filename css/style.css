@@ -55,7 +55,7 @@ a:hover {
 }
 .logo {
     float: left;
-    width: 250%;
+    width: 100%;
 }
 .logo h2 {
     font-size: 2em;
@@ -67,7 +67,7 @@ a:hover {
 }
 .top-nav {
     float: right;
-    width: 50%;
+    width: 100%;
     text-align: right;
 }
 .top-nav ul {
@@ -97,7 +97,7 @@ span.menu {
    font-family: 'Noto Serif', serif;
 }
 .banner-bottom {
-    padding-top: 2em;
+    padding-top: 5em;
     text-align: center;
 }
 .banner-bottom-text p {
