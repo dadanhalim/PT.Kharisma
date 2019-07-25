@@ -24,15 +24,14 @@ a:hover {
 /*----*/
 .header-main {
     background: rgba(255, 255, 255, 0.18);
-        padding: 0.5em 0;
+        padding: 0.7em 0;
 
 }
 
 .header-logo {
     color:white;
     font-family: 'Times New Roman', Times, serif;
-    width: 100px;
-    height: auto;
+    font-size: larger;
         
         
 }
@@ -45,7 +44,7 @@ a:hover {
 /*--headeer end here--*/
 .banner {
     background: url(../images/Background.jpg)no-repeat center;
-    min-height: 880px;
+    min-height: 900px;
     background-size: cover;
 }
 .banner1 {
@@ -57,17 +56,16 @@ a:hover {
     float: left;
     width: 100%;
 }
-.logo h2 {
-    font-size: 2em;
+.logo h3 {
+    font-size: 1em;
    font-family: 'Noto Serif', serif;
-   padding: 5px;
 }
-.logo h2 a{
+.logo h3 a{
     color:#fff;
 }
 .top-nav {
     float: right;
-    width: 100%;
+    width: 50%;
     text-align: right;
 }
 .top-nav ul {
@@ -333,7 +331,7 @@ a.accordion-section-title span {
     margin: 0 auto;
 }
 .real-icon-grid span.icn1 {
-    background: url(../images/icn1.png)no-repeat 11px 10px;
+    background: url(../images/concept.png)no-repeat 11px 10px;
     width: 90px;
     height: 90px;
     display: inline-block;
@@ -343,7 +341,7 @@ a.accordion-section-title span {
     border-radius: 47px;
 }
 .real-icon-grid span.icn2 {
-    background: url(../images/icn2.png)no-repeat 11px 10px;
+    background: url(../images/budget.png)no-repeat 11px 10px;
     width: 90px;
     height: 90px;
     display: inline-block;
@@ -353,7 +351,7 @@ a.accordion-section-title span {
     border-radius: 47px;
 }
 .real-icon-grid span.icn3 {
-    background: url(../images/icn3.png)no-repeat 11px 10px;
+    background: url(../images/cost.png)no-repeat 11px 10px;
     width: 90px;
     height: 90px;
     display: inline-block;
@@ -364,7 +362,7 @@ a.accordion-section-title span {
 }
 /*-- w3layouts --*/
 .real-icon-grid span.icn4 {
-    background: url(../images/icn4.png)no-repeat 11px 10px;
+    background: url(../images/human.png)no-repeat 11px 10px;
     width: 90px;
     height: 90px;
     display: inline-block;
@@ -474,7 +472,7 @@ a.accordion-section-title span {
     line-height: 1.8em;
     margin: 0 auto;
 }
-span.glyphicon.glyphicon.glyphicon-leaf {
+span.glyphicon.glyphicon.glyphicon-cog {
     font-size: 1.8em;
     color: #fff;
     width: 60px;
@@ -486,14 +484,14 @@ span.glyphicon.glyphicon.glyphicon-leaf {
     line-height: 2em;
     cursor:pointer;
 }
-span.glyphicon.glyphicon.glyphicon-leaf:hover {
+span.glyphicon.glyphicon.glyphicon-cog:hover {
 	background: #009bbb;
 	transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
 }
-span.glyphicon.glyphicon.glyphicon-hand-right{
+span.glyphicon.glyphicon.glyphicon-road{
 	 font-size: 1.8em;
     color: #fff;
     width: 60px;
@@ -505,14 +503,14 @@ span.glyphicon.glyphicon.glyphicon-hand-right{
     line-height: 2em;
     cursor:pointer;
 }
-span.glyphicon.glyphicon.glyphicon-hand-right:hover{
+span.glyphicon.glyphicon.glyphicon-road:hover{
 	background: #009bbb;
 	transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
 }
-span.glyphicon.glyphicon.glyphicon-eye-open{
+span.glyphicon.glyphicon.glyphicon-home{
 	font-size: 1.8em;
     color: #fff;
     width: 60px;
@@ -524,13 +522,32 @@ span.glyphicon.glyphicon.glyphicon-eye-open{
     line-height: 2em;
     cursor:pointer;
 }
-span.glyphicon.glyphicon.glyphicon-eye-open:hover{
+span.glyphicon.glyphicon.glyphicon-home:hover{
     background: #009bbb;
     transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
-}	
+}
+span.glyphicon.glyphicon.glyphicon-user{
+	font-size: 1.8em;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    background: #558211;
+    display: inline-block;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 2em;
+    cursor:pointer;
+}
+span.glyphicon.glyphicon.glyphicon-user:hover{
+    background: #009bbb;
+    transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}		
 .hope-text h4 {
     margin-bottom: 0.2em;
     font-size: 1.2em;
