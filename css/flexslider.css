@@ -148,12 +148,12 @@ html[xmlns] .slides {
   position: absolute;
   right: 0%;
   margin-left: 0px;
-  bottom: -100%;
+  bottom: -70%;
   width: 100%;
 }
 
 .flex-control-nav li {
-  margin: 0 6px;
+  margin: 0 3px;
   display: inline-block;
   zoom: 1;
   *display: inline;

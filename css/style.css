@@ -24,7 +24,7 @@ a:hover {
 /*----*/
 .header-main {
     background: rgba(255, 255, 255, 0.18);
-        padding: 0.7em 0;
+        padding: 0.5em 0;
 
 }
 
@@ -33,7 +33,7 @@ a:hover {
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     width: 50%;
-    padding-top: 12px;
+    padding-top: 10px;
     padding-left: 5px;
         
         
@@ -70,6 +70,7 @@ a:hover {
     float: right;
     width: 50%;
     text-align: right;
+    padding-top: 10px;
 }
 .top-nav ul {
     padding: 0px;
@@ -98,7 +99,7 @@ span.menu {
    font-family: 'Noto Serif', serif;
 }
 .banner-bottom {
-    padding-top: 5em;
+    padding-top: 0.5em;
     text-align: center;
 }
 .banner-bottom-text p {
@@ -111,7 +112,7 @@ span.menu {
 .banner-bottom-text a {
     font-size: 1em;
     color: #fff;
-    padding: 1em 2em;
+    padding: 1em;
     display: inline-block;
     background: #009bbb;
     border-radius:99px;
