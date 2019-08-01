@@ -32,17 +32,17 @@ a:hover {
     color:white;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
-    width: 100%;
+    width: 50%;
     padding-top: 12px;
     padding-left: 5px;
         
         
 }
-/* .header-logo:hover {
+.header-logo:hover {
     color:white;
         
         
-} */
+}
 
 /*--headeer end here--*/
 .banner {
@@ -57,7 +57,7 @@ a:hover {
 }
 .logo {
     float: left;
-    width: 50%;
+    width: 10%;
 }
 .logo h3 {
     font-size: 1em;
@@ -1586,7 +1586,7 @@ ul.res li a {
 .top-nav {
     float: right;
     width: 50%;
-    padding-top: 8px;
+    padding-top: 10px;
 }
 .top-nav ul.res{
 	 display:none;
@@ -2057,9 +2057,9 @@ h2.grid2 {
     font-size: 0.8em;
 }
 /*--shortcodes--*/
-.page-header h3 {
+/* .page-header h3 {
   font-size: 2em; 
-}
+} */
 button.btn.btn-lg {
   font-size: 1em;
   padding: 7px;
@@ -2388,7 +2388,7 @@ span.label {
   display: inline-block;
 }
 .page-header {
-  margin: 16px 0 9px;
+  margin: 10px 0 9px;
 }
 .grid2 {
   margin: 0.4em 0 0;
