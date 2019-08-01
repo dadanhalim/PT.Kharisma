@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<link rel="icon" type="image/png" href="images/LOGO.png">
+	<link rel="icon" type="image/png" href="images/LOGO 1.png">
 	<title>PT.Kharisma Mega Satria</title>
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -35,7 +35,7 @@
 			<div class="header-main">
 				<div class="container">
 					<div class="logo">
-						<h3><img src="images/LOGO.png" width="80px" height="auto" />
+						<h3><img src="images/LOGO 2.png" width="80px" height="auto" />
 							<a class="header-logo" href="index.html"> PT. KHARISMA MEGA SATRIA</a></h3>
 					</div>
 					<div class="top-nav">
@@ -80,7 +80,11 @@
 					<h4>Construction</h4>
 					<p>Membangun sarana maupun prasarana yang meliputi pembangunan gedung (building construction).</p>
 					<h4>Civil & Man Power Supply</h4>
-					<p></p>
+					<p>Berkomitmen untuk mencari dan memasok tenaga kerja yang berkualitas untuk
+						mendukung klien kami dalam operasi mereka. Tim rekrutmen yang
+						secara teknis serba bisa dan sangat berpengalaman sangat efisien dalam
+						menyediakan klien kami dengan personel yang kompeten, berpengalaman dan sangat
+						terampil yang disesuaikan dengan kebutuhan spesifik mereka.</p>
 				</div>
 				<div class="col-md-4 hope-middle">
 					<img src="images/service.jpg" alt="" class="img-responsive">
@@ -311,6 +315,40 @@
 		</div>
 	</section>
 	<!-- footer section -->
+
+	<!-- here stars to top icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //start-smoth-scrolling -->
 </body>
 
 </html>

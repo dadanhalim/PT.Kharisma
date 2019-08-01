@@ -31,20 +31,23 @@ a:hover {
 .header-logo {
     color:white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
+    font-size: medium;
+    width: 50%;
+    padding-top: 12px;
+    padding-left: 5px;
         
         
 }
-.header-logo:hover {
+/* .header-logo:hover {
     color:white;
         
         
-}
+} */
 
 /*--headeer end here--*/
 .banner {
     background: url(../images/Background.jpg)no-repeat center;
-    min-height: 900px;
+    min-height: 780px;
     background-size: cover;
 }
 .banner1 {
@@ -54,7 +57,7 @@ a:hover {
 }
 .logo {
     float: left;
-    width: 100%;
+    width: 50%;
 }
 .logo h3 {
     font-size: 1em;
@@ -261,13 +264,9 @@ a.accordion-section-title span {
     font-weight: 100;
 }
 /*--smith--*/
-.smith-left {
-    float: left;
-    width: 25%;
-}
 .smith-right {
-    float: right;
-    width: 75%;
+    text-align: center;
+    width: 100%;
     margin-top:1.5em;
 }
 .smith-right h2 {
@@ -291,7 +290,6 @@ a.accordion-section-title span {
     line-height: 2em;
     margin: 0 auto;
 }
-/*-- w3layouts --*/
 .smith {
     padding-bottom: 5em;
 }
@@ -606,14 +604,8 @@ span.glyphicon.glyphicon.glyphicon-user:hover{
     padding-bottom:1.5em;
    font-family: 'Noto Serif', serif;
 }
-/* .about-bottom {
-    background: url(../images/LOGO.png)no-repeat left ;
-    background-size: 50%;
-    min-height: 300px;
-    padding: 1.5em;
-} */
 .about-left {
-    align: center;
+    text-align: justify;
     width: 50%;
 }
 .about-right {
@@ -1194,7 +1186,7 @@ section.footer {
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	padding:100px 0;
+    padding:100px 0;
 }
 section.footer h3 {
 	color:#fff;
@@ -1413,6 +1405,33 @@ ul.social-icons2 li a i.fa.fa-google-plus:hover {
 	color:#FF6B6B;
 }
 /*-- /footer section --*/
+
+/*-- to-top --*/
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	right: 2%;
+	overflow: hidden;
+	z-index: 999; 
+	width: 60px;
+	height: 50px;
+	border: none;
+	text-indent: 100%;
+	background: url(../images/up-arrow.png) no-repeat 0px 0px;
+}
+#toTopHover {
+	width: 50px;
+	height: 50px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+
 /*--media quiries start here--*/
 @media(max-width:1366px){
 	
@@ -1565,12 +1584,13 @@ ul.res li a {
 		position:relative;
 }
 .top-nav {
-    float: none;
+    float: right;
     width: 50%;
+    padding-top: 8px;
 }
 .top-nav ul.res{
 	 display:none;
-	 padding:1px;
+	 padding:2px;
 }
 .top-nav ul.res {
 		padding: 0;
@@ -1743,9 +1763,7 @@ h1.grid2 {
 }
 .smith-right p {
     font-size: 0.9em;
-}
-.smith-left {
-    width: 35%;
+    font-style: italic;
 }
 .smith-right {
     width: 65%;
@@ -1899,11 +1917,6 @@ h2.grid2 {
 .history-right {
     width: 70%;
     margin: 1em auto 0em;
-}
-.smith-left {
-    width: 100%;
-    float: none;
-    text-align: center;
 }
 .smith-right {
     width: 100%;

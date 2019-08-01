@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<link rel="icon" type="image/png" href="images/LOGO.png">
+	<link rel="icon" type="image/png" href="images/LOGO 1.png">
 	<title>PT.Kharisma Mega Satria</title>
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -41,8 +41,8 @@
 			<div class="header-main">
 				<div class="container">
 					<div class="logo">
-						<h3><img src="images/LOGO.png" width="80px" height="auto" />
-							<a class="header-logo" href="index.html"> PT. KHARISMA MEGA SATRIA</a></h3>
+						<h3><img src="images/LOGO 2.png" width="80px" height="auto" />
+							<a class="header-logo" href="index.html"> PT. KMS</a></h3>
 					</div>
 					<div class="top-nav">
 						<span class="menu"> <img src="images/icon.png" alt=""></span>
@@ -82,20 +82,22 @@
 				<div class="col-md-6 history-left">
 					<h3>Kontraktor Umum, Perdagangan, Jasa, Supplier dan Mechanical Electrical</h3>
 					<p>
-						<li>PT. KHARISMA MEGA SATRIA merupakan jawaban dari kebutuhan
-							akan kualitas dan kecepatan layanan terhadap pelanggan dan merupakan perusahaan yang
-							bergerak dibidang jasa pekerjaan Service Maintenance Machanical Electrical
-							dan Jasa Civil & Kontruksi dengan visi dan misi serta jangkauan
-							layanan yang bersifat global yang dipersembahkan untuk kepuasan
-							pelanggan.</li>
-						<li>PT. KHARISMA MEGA SATRIA didirikan pada tahun 2016 membuat kami lebih confidence dalam
-							memberikan layanan kepada seluruh partner/pelanggan dengan kualitas layanan yang selalu
-							terbaik. Kecepatan, kualitas layanan, respon time tercepat, kendali mutu dan bergaransi
-							merupakan modal utama kami sebagai yang terdepan.</li>
+						<span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>
+						PT. KHARISMA MEGA SATRIA merupakan jawaban dari kebutuhan
+						akan kualitas dan kecepatan layanan terhadap pelanggan dan merupakan perusahaan yang
+						bergerak dibidang jasa pekerjaan Service Maintenance Machanical Electrical
+						dan Jasa Civil & Kontruksi dengan visi dan misi serta jangkauan
+						layanan yang bersifat global yang dipersembahkan untuk kepuasan
+						pelanggan.</br>
+						<span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>
+						PT. KHARISMA MEGA SATRIA didirikan pada tahun 2016 membuat kami lebih confidence dalam
+						memberikan layanan kepada seluruh partner/pelanggan dengan kualitas layanan yang selalu
+						terbaik. Kecepatan, kualitas layanan, respon time tercepat, kendali mutu dan bergaransi
+						merupakan modal utama kami sebagai yang terdepan.
 					</p>
 				</div>
 				<div class="col-md-6 history-right">
-					<img src="images/LOGO.png" alt="" class="img-responsive">
+					<img src="images/LOGO 2.png" alt="" class="img-responsive">
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -216,6 +218,40 @@
 		</div>
 	</section>
 	<!-- footer section -->
+
+	<!-- here stars to top icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //start-smoth-scrolling -->
 </body>
 
 </html>
